@@ -25,7 +25,7 @@
 
 .card header h3 {
     font-size: 40px;
-    font-weight: var(--text-weight);
+    font-weight: var(--titles-weight);
     margin: 8px 0 0;
 }
 
@@ -33,7 +33,7 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
-    font-weight: var(--text-weight);
+    font-weight: var(--titles-weight);
 }
 
 @media screen and (min-width: 1024px) {
