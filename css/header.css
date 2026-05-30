@@ -1,14 +1,9 @@
 header {
     background-color: var(--background-tertiary-color);
     display: flex;
-    flex-direction: column;
-}
-
-.header-container {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 38px 24px;
+    padding: 38px 48px;
     position: relative;
 }
 
@@ -58,9 +53,9 @@ nav {
     font-size: 24px;
 }
 
-
+/* MEDIA QUERRY */
 @media screen and (min-width: 768px) {
-    .header-container {
+    header{
     padding: 38px 60px;
     }
     .navigation-menu {
@@ -85,7 +80,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-    .header-container {
+    header {
         padding: 38px 120px;
     }
     .logo {
@@ -104,7 +99,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-    .header-container {
+    header {
         padding: 38px 160px;
     }
 }
