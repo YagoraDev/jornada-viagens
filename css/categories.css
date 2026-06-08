@@ -44,12 +44,6 @@
     margin-bottom: 16px;
 }
 
-.categories-cards .card h3 {
-    font-size: 28px;
-    font-weight: var(--titles-weight);
-    margin: 0;
-}
-
 .categories-cards .single-line {
     padding-top: 50px;
 }
@@ -62,11 +56,9 @@
 
 /* TABLET */
 @media (min-width:768px) {
-
     .categories .section-title {
         width: 100%;
     }
-
     .categories-cards {
         flex-direction: row;
         flex-wrap: wrap;
@@ -76,7 +68,6 @@
         max-width: 800px;
         margin: 0 auto;
     }
-
     .categories-cards .card {
         width: calc(50% - 12px);
         max-width: 420px;
@@ -86,13 +77,11 @@
 
 /* DESKTOP */
 @media (min-width:1024px){
-
     .categories-cards{
         padding:0 60px;
         max-width:900px;
         gap:24px;
     }
-
     .categories-cards .card{
         width:calc(25% - 18px);
         max-width:none;
@@ -102,12 +91,10 @@
 
 /* DESKTOP BIG */
 @media (min-width:1200px){
-
     .categories-cards{
         max-width:1100px;
         gap:24px;
     }
-
     .categories-cards .card{
         width:calc(25% - 18px);
         height:180px;
@@ -116,22 +103,18 @@
 
 /* TELA VERY BIG */
 @media (min-width:1920px){
-
     .categories-cards{
         padding:0 260px;
         max-width:1400px;
         gap:30px;
     }
-
     .categories-cards .card{
         width:calc(25% - 22.5px);
         height:180px;
     }
-
     .categories-cards .card h3{
         font-size:32px;
     }
-
     .categories-cards .card img{
         max-width:80px;
     }
